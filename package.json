@@ -1,0 +1,17 @@
+{
+  "name": "bun_typescript_http_server",
+  "module": "index.ts",
+  "type": "module",
+  "main": "index.ts",
+  "devDependencies": {
+    "@types/node": "^20.9.2",
+    "bun-types": "latest",
+    "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "start": "bun index.ts"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
